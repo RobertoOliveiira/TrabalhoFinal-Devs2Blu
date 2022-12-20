@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+:root 
+
+{
+    --clr1: rgba(247, 52, 52, 0.782);
+    --clr2: rgba(252, 247, 247, 0.782);
+    --clr3: rgba(17, 15, 15, 0.782);
+    --clr4: rgba(228, 13, 13, 0.782);
+    --clr5: limegreen;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+html{
+    font-size: 65%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--clr4);
+}
+.head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    background: var(--clr4);
+    color: var(--clr2);
+    padding: 3rem 9%;
+    align-items: center;
+    justify-content: space-between;
+}
+.head h1{
+    font-size: 2.5rem;
+}
+
+.navbar a{
+    color: var(--clr2);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin:  0 2rem;
+}
+.navbar a:hover{
+    color: var(--clr3);
+    transition: .4s ease;
+}
+.side-bar i{
+padding: 1.5rem;
+font-size: 2.1rem;
+border: none;
+background:var(--clr2) ;
+counter-reset: var(--clr4)
+}
+.side-bar i:hover{
+    background: var(--clr3);
+    color: var(--clr4);
+    transition: .4s ease;
+}
+
+#bars{
+    display: none;
+}
