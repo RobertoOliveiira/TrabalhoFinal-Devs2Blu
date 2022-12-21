@@ -5,6 +5,8 @@
     --clr3: #000;
     --clr4: #ea3524;
     --clr5: limegreen;
+    --clr6: rgb(250, 179, 121);
+    --clr7: rgb(255, 251, 5);
 }
 
 * {
@@ -335,12 +337,13 @@ section p {
     width: 20rem;
     height: auto;
 }
-.size {
+.size, .price,.status {
     padding-top: 0.1rem 0;
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--clr3);
     text-transform: capitalize;
+    margin-top: 10px;
 }
 
 .in-box .fa-solid {
@@ -390,7 +393,7 @@ section p {
     font-size: 3rem;
     letter-spacing: .1rem;
     text-transform: capitalize;
-    background: white;
+    background: var(--clr2)
 }
 
 .contact-inner-col p {
@@ -424,6 +427,10 @@ section p {
     background: rgb(44, 44, 44);
 }
 
+
+#submit:hover{
+    background:rgb(67, 65, 65)
+}
 .copyright i {
     font-size: 2rem;
     color: var(--clr2);

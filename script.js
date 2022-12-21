@@ -14,4 +14,9 @@ window.onscroll = () => {
     menu.classList.remove('active');
     searchPizza.classList.remove('active')
 }
+let user = document.getElementById('user');
+user.onclick = () =>{
+    window.open('user.html', '_system');
+}
+
 
