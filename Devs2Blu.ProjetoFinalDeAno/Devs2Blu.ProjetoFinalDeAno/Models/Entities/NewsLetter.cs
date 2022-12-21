@@ -1,6 +1,6 @@
 ﻿namespace Devs2Blu.ProjetoFinalDeAno.Models.Entities
 {
-    public class NewsLetter
+    public class Newsletter
     {
         public int Id { get; set; }
         public string Nome { get; set; }

@@ -2,7 +2,7 @@
 
 namespace Devs2Blu.ProjetoFinalDeAno.Services.Interfaces
 {
-    public interface IPedido
+    public interface IPedidoService
     {
         Task<int> Delete(Pedido pedido);
         Task<Pedido> FindById(int id);

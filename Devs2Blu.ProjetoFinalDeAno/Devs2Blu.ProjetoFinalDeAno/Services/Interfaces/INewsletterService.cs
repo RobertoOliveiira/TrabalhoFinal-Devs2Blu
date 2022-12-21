@@ -2,7 +2,7 @@
 
 namespace Devs2Blu.ProjetoFinalDeAno.Services.Interfaces
 {
-    public interface INewsletter
+    public interface INewsletterService
     {
         Task<int> Delete(Newsletter newsletter);
         Task<Newsletter> FindById(int id);

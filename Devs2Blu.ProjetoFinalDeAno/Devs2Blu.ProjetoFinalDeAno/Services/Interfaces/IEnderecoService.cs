@@ -2,7 +2,7 @@
 
 namespace Devs2Blu.ProjetoFinalDeAno.Services.Interfaces
 {
-    public interface IEndereco
+    public interface IEnderecoService
     {
         Task<int> Delete(Endereco endereco);
         Task<Endereco> FindById(int id);
