@@ -7239,11 +7239,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Pessoal\\CSharpMVC\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno.csproj",
+      "projectUniqueName": "D:\\Projects\\TrabalhoFinal-Devs2Blu\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno.csproj",
       "projectName": "Devs2Blu.ProjetoFinalDeAno",
-      "projectPath": "D:\\Projects\\Pessoal\\CSharpMVC\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno.csproj",
+      "projectPath": "D:\\Projects\\TrabalhoFinal-Devs2Blu\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno.csproj",
       "packagesPath": "C:\\Users\\Roberto\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Pessoal\\CSharpMVC\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\obj\\",
+      "outputPath": "D:\\Projects\\TrabalhoFinal-Devs2Blu\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Roberto\\AppData\\Roaming\\NuGet\\NuGet.Config",

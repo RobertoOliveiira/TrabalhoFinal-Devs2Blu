@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D/kJtLkN+K12dGtlTjnhISRoS1fjL1FPJAceNICAnmQ+ElbvoL2rKx5H4S1q+h4PRhevkgtTUVbHIzv31u4veg==",
+  "dgSpecHash": "tV49UN8azxPGxgKPfEc2/EudLf917hFfhmmWveMSkWYVtrpJlY0FJ3eVOW+hHJbrUlYwBncX2PdJuDEb64ba6A==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Pessoal\\CSharpMVC\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno.csproj",
+  "projectFilePath": "D:\\Projects\\TrabalhoFinal-Devs2Blu\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno\\Devs2Blu.ProjetoFinalDeAno.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Roberto\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Roberto\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
