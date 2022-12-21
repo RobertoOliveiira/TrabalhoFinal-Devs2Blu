@@ -15,9 +15,7 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-body{
-    background: url(/_img/pizzas.png);
-}
+
 html {
     font-size: 65%;
     scroll-behavior: smooth;
