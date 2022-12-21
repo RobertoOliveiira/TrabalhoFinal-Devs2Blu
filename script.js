@@ -14,3 +14,4 @@ window.onscroll = () => {
     menu.classList.remove('active');
     searchPizza.classList.remove('active')
 }
+
