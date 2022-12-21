@@ -1,5 +1,6 @@
 ﻿using Devs2Blu.ProjetoFinalDeAno.Models.Entities;
 using Devs2Blu.ProjetoFinalDeAno.Services.Interfaces;
+using Devs2Blu.ProjetoFinalDeAno.Repository;
 
 namespace Devs2Blu.ProjetoFinalDeAno.Services.Implements
 {
@@ -11,32 +12,32 @@ namespace Devs2Blu.ProjetoFinalDeAno.Services.Implements
         {
             _repository = repository;
         }
-        public Task<int> Delete(Pedido pedido)
+        public async Task<int> Delete(Pedido pedido)
         {
             return await _repository.DeletePedido(pedido);
         }
 
-        public Task<Pedido> FindById(int id)
+        public async Task<Pedido> FindById(int id)
         {
             return await _repository.FindByIdPedido(id);
         }
 
-        public Task<Pedido> FindByIdCliente(int idCliente)
+        public async Task<Pedido> FindByIdCliente(int idCliente)
         {
             return await _repository.FindByIdCliente(idCliente);
         }
 
-        public Task<Pedido> FindByIdPizza(int idPizza)
+        public async Task<Pedido> FindByIdPizza(int idPizza)
         {
             return await _repository.FindByIdPizza(idPizza);
         }
 
-        public Task<IEnumerable<Pedido>> GetAllPedidos()
+        public async Task<IEnumerable<Pedido>> GetAllPedidos()
         {
             return await _repository.GetAll();
         }
 
-        public Task<int> Save(Pedido pedido)
+        public async Task<int> Save(Pedido pedido)
         {
             return await _repository.SavePedido(pedido);
         }

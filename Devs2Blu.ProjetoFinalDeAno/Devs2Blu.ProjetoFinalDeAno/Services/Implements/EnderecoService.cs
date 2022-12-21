@@ -1,5 +1,6 @@
 ﻿using Devs2Blu.ProjetoFinalDeAno.Models.Entities;
 using Devs2Blu.ProjetoFinalDeAno.Services.Interfaces;
+using Devs2Blu.ProjetoFinalDeAno.Repository;
 
 namespace Devs2Blu.ProjetoFinalDeAno.Services.Implements
 {
@@ -12,22 +13,22 @@ namespace Devs2Blu.ProjetoFinalDeAno.Services.Implements
         {
             _repository = repository;
         }
-        public Task<int> Delete(Endereco endereco)
+        public async Task<int> Delete(Endereco endereco)
         {
             return await _repository.DeleteEndereco(endereco);
         }
 
-        public Task<Endereco> FindById(int id)
+        public async Task<Endereco> FindById(int id)
         {
             return await _repository.FindByIdEndereco(id);
         }
 
-        public Task<IEnumerable<Endereco>> GetAllEnderecos()
+        public async Task<IEnumerable<Endereco>> GetAllEnderecos()
         {
             return await _repository.GetAll();
         }
 
-        public Task<int> Save(Endereco endereco)
+        public async Task<int> Save(Endereco endereco)
         {
             return await _repository.SaveEndereco(endereco);
         }

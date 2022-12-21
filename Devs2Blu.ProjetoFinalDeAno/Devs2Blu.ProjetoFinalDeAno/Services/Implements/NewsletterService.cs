@@ -1,5 +1,6 @@
 ﻿using Devs2Blu.ProjetoFinalDeAno.Models.Entities;
 using Devs2Blu.ProjetoFinalDeAno.Services.Interfaces;
+using Devs2Blu.ProjetoFinalDeAno.Repository;
 
 namespace Devs2Blu.ProjetoFinalDeAno.Services.Implements
 {
@@ -11,27 +12,27 @@ namespace Devs2Blu.ProjetoFinalDeAno.Services.Implements
         {
             _repository = repository;
         }
-        public Task<int> Delete(Newsletter newsletter)
+        public async Task<int> Delete(Newsletter newsletter)
         {
-            return await _repository.DeleteCategoria(categoria);
+            return await _repository.DeleteNewsletter(newsletter);
         }
 
-        public Task<Newsletter> FindByEmail(string email)
+        public async Task<Newsletter> FindByEmail(string email)
         {
             return await _repository.FindByEmail(email);
         }
 
-        public Task<Newsletter> FindById(int id)
+        public async Task<Newsletter> FindById(int id)
         {
             return await _repository.FindByIdNewsletter(id);
         }
 
-        public Task<IEnumerable<Newsletter>> GetAllNewsletters()
+        public async Task<IEnumerable<Newsletter>> GetAllNewsletters()
         {
             return await _repository.GetAll();
         }
 
-        public Task<int> Save(Newsletter newsletter)
+        public async Task<int> Save(Newsletter newsletter)
         {
             return await _repository.SaveNewsletter(newsletter);
         }

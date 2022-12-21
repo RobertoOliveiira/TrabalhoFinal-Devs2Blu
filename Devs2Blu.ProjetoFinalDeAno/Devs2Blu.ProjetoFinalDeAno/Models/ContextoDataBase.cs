@@ -44,8 +44,12 @@ namespace Devs2Blu.ProjetosAula.MVCSQLServerApp2.Web.Models
         }
 
         #region DbSets
-        public DbSet<Categoria> Categoria { get; set; }
-        public DbSet<Produto> Produto { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<ConfiguracaoSistema> ConfiguracaoSistema { get; set; }
+        public DbSet<Endereco> Endereco { get; set; }
+        public DbSet<Newsletter> Newsletter { get; set; }
+        public DbSet<Pedido> Pedido { get; set; }
+        public DbSet<Pizza> Pizza { get; set; }
 
         #endregion
     }
