@@ -12,5 +12,7 @@ namespace Devs2Blu.ProjetoFinalDeAno.Models.Entities
         public DateTime Created_Time { get; set; }
         public int IdEndereco { get; set; }
         public virtual Endereco? Endereco { get; set; }
+        public ICollection<Pedido> Pedidos { get; set; }
+
     }
 }

@@ -17,10 +17,17 @@ namespace Devs2Blu.ProjetosAula.MVCSQLServerApp2.Web.Models
             modelBuilder.Entity<Cliente>()
                 .HasOne(p => p.Endereco);
 
-
+            modelBuilder.Entity<Pedido>()
+                .HasOne(pedido => pedido.Cliente)
+                .WithMany(cliente => cliente.Pedidos)
+                .HasForeignKey(pedido => pedido.IdCliente);
+            modelBuilder.Entity<Pedido>()
+                .HasMany(pedido => pedido.Pizzas)
+                .WithOne(pizza => pizza.Pedido)
+                .HasForeignKey(pedido => pedido.IdPedido);
 
             // Seed
-            modelBuilder.Entity<Categoria>()
+           /* modelBuilder.Entity<Categoria>()
                 .HasData(
                 new { Id = 1, Nome = "Alimentos Não Perecíveis" },
                 new { Id = 2, Nome = "Laticínios" },
@@ -38,7 +45,7 @@ namespace Devs2Blu.ProjetosAula.MVCSQLServerApp2.Web.Models
                 new { Id = 6, Nome = "Multiuso", Preco = 30.00, Quantidade = 5, CategoriaId = 3 },
                 new { Id = 7, Nome = "Suco de Laranja 1L", Preco = 40.00, Quantidade = 5, CategoriaId = 4 },
                 new { Id = 8, Nome = "Coca-cola 2L", Preco = 40.00, Quantidade = 5, CategoriaId = 4 }
-                );
+                );*/
 
             base.OnModelCreating(modelBuilder);
         }
