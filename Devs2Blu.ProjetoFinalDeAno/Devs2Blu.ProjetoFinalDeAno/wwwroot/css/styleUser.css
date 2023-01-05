@@ -1,0 +1,31 @@
+.in-box input {
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  border: none;
+  border-bottom: 0.3rem solid var(--clr3);
+}
+.in-box h1 {
+  padding: 3rem 0;
+  color: var(--clr4);
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+.in-box {
+  margin-bottom: 5rem;
+  display:block;
+}
+#editUser:hover{
+    background: var(--clr7);
+    color: var(--clr3);
+}
+#deleteUser:hover{
+    background: var(--clr1);
+    color: var(--clr2);
+}
+#submit:hover{
+    background: var(--clr5);
+    color: var(--clr2);
+}
